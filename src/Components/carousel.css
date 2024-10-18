@@ -1,0 +1,18 @@
+.swiper-button-next,
+.swiper-button-prev {
+  width: 30px; /* Change width of buttons */
+  height: 30px; /* Change height of buttons */
+  font-size: 20px; /* Adjust size of arrows */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Change background color */
+  border-radius: 5px; /* Optional: Make buttons circular */
+}
+.swiper-button-next {
+  right: 0;
+}
+
+/* Optional: Change the color of the arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: white; /* Arrow color */
+  font-size: 20px; /* Adjust arrow size */
+}
